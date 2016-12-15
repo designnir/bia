@@ -5,11 +5,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <meta name="description" content="Contact Big Island Air to book your experential volcano air tours or any type of air tours in Kona Hawaii.">
+        <meta name="description" content="Experience one of the most beautiful sunsets with the Sunset Air tour from Kona Hawaii with Big Island Air.">
         <meta name="author" content="">
         <link rel="icon" href="favicon.ico">
 
-        <title>Contact Big Island Air - Volcano Air Tours Kona Hawaii</title>
+        <title>Sunset Air Tour from Kona Hawaii with Big Island Air</title>
 
         <!-- Bootstrap core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -69,7 +69,9 @@
           js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
           fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));</script>
-               
+       
+       
+        
         <nav class="navbar navbar-inverse">
             <div class="container">
                 <div class="row">
@@ -81,7 +83,7 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo" class="img-responsive" /></a>
+                            <a class="navbar-brand" href="index.php"><img src="images/logo.png" alt="logo" class="img-responsive" /></a>
                         </div>
                     </div>
                     <div class="col-sm-10 col-md-9">
@@ -89,32 +91,32 @@
                             <span class="phone">CALL US: 808.329.4868</span>
                             <ul class="header-social-icons">
                                 <li><a href="https://www.facebook.com/pages/Big-Island-Air-Hawaii/162424950451152" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.instagram.com/bigislandair/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.tripadvisor.com/Attraction_Review-g60872-d1798336-Reviews-Big_Island_Air-Kailua_Kona_Island_of_Hawaii_Hawaii.html" target="_blank"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a></li>
                             </ul>
-                            <a href="reservation.html" class="btn btn-primary booknowbtn">BOOK NOW <i class="fa fa-arrow-right" aria-hidden="true"></i></a>    
+                            <a href="reservation.php?tour=circle" class="btn btn-primary booknowbtn">BOOK NOW <i class="fa fa-arrow-right" aria-hidden="true"></i></a>    
                         </div>
                         <div id="navbar" class="collapse navbar-collapse">
                             <ul class="nav navbar-nav">
-                                <li><a href="index.html">HOME</a></li>
-                                <li><a href="tours.html">TOURS</a></li>
-                                <li><a href="charters.html">CHARTERS</a></li>
-                                <li><a href="live-reviews.html">LIVE REVIEWS</a></li>
-                                <li><a href="aircraft.html">AIRCRAFT</a></li>
-                                <li><a href="pilots.html">PILOTS</a></li>
-                                <li><a href="gallery.html">GALLERY</a></li>
-                                <li class="active"><a href="contact.html">CONTACT US</a></li>
+                                <li><a href="index.php">HOME</a></li>
+                                <li><a href="tours.php">TOURS</a></li>
+                                <li><a href="charters.php">CHARTERS</a></li>
+                                <li><a href="live-reviews.php">LIVE REVIEWS</a></li>
+                                <li><a href="aircraft.php">AIRCRAFT</a></li>
+                                <li><a href="pilots.php">PILOTS</a></li>
+                                <li><a href="gallery.php">GALLERY</a></li>
+                                <li><a href="contact.php">CONTACT US</a></li>
                             </ul>
                         </div><!--/.nav-collapse -->
                     </div>
                 </div>
             </div>
-        </nav>          
+        </nav>
         
-        <div class="tree-bar">
+                                                  
+      <div class="tree-bar">
             <img src="images/tree.png" alt="tree" class="img-responsive" />
-        </div>                                     
-      
+        </div>
       
         <div class="container-fluid inner-bg">
             <div class="content-area">
@@ -123,89 +125,77 @@
 
                 <div class="row">
                     <div class="col-md-12">
-                        <h1 class="page-title"><span>Contact</span></h1>
-                        
-                        <div class="row">
-                            
-                            <div class="col-md-4">
-                                <p><strong>Big Island Air Office</strong></p>
-                                <p>Kona International Airport<br />
-                                Commuter Air Terminal<br />
-                                73-103 U'u Street<br />
-                                Kailua-Kona, HI 96740</p>
-                            </div>
-                            
-                            <div class="col-md-4">
-                                <p><strong>Mailing address:</strong></p>
-                                <p>Kailua-Kona, HI 96745</p>  
-                            </div>
-                            
-                            <div class="col-md-4">
-                                <p><strong>Phone:</strong> 808 329 4868<br />
-                                <strong>FAX:</strong> 808 329 0855<br />
-                                <strong>E-mail:</strong> info@bigislandair.com<br />
-                                <strong>Tours:</strong> tours@bigislandair.com<br />
-                                <strong>Charters:</strong> charters@bigislandair.com</p>
-                            </div>
-                            
+                        <h1 class="page-title"><a href="reservation.php?tour=sunset" class="btn btn-primary booknowbtn">BOOK NOW <i class="fa fa-arrow-right" aria-hidden="true"></i></a><span>Sunset tour</span></h1>
+                        <p>The perfect way to cap off your day, a fiery eruption of Kilauea at sunset with Big Island Air! Depart from the Kona International airport and join us for a "Full Circle Island Air Adventure" in our new state of the art Cessna Caravans. You'll see miles of gorgeous beaches along lava fields, series of nearly inaccessible valleys, five volcanoes including the world's largest volcano - Mauna Loa, the infamous - Mauna Kea and the active - Kilauea Volcano, towering waterfalls, masculine mountains, 11 of the world's 13 climate zones and breathtaking coastlines. You'll arrive on the east side of the island at the Kilauea Volcano just as the sun is setting in the west behind Mauna Loa. The twilight conditions over Kilauea will provide optimal viewing for you to experience the blistering red-hot molten lava on the surface below. You'll have a spectacular view as the sky will turn shades of bright yellow, deep orange, deep red with an occasional hue of purple.</p>
+
+                        <h3 class="sub-title"><span>Sights:</span></h3>
+
+                        <ul class="col-3">
+                            <li>Kona Coast</li>
+                            <li>Dramatic Waterfalls</li>
+                            <li>Kilauea Volcano</li>
+                            <li>Black, White & Green Sand Beaches</li>
+                            <li>Kohala Mountains & Valleys</li>
+                            <li>Mauna Loa</li>
+                            <li>Kealakekua Bay</li>
+                            <li>The Sunset</li>
+                            <li>And more...</li>
+                        </ul>
+
+                        <h3 class="sub-title"><span>Pricing</span></h3>
+
+                        <div class="pricing-box">
+                           <div class="row">
+                               <div class="col-md-4">
+                                   <h3>REGULAR PRICE</h3>
+                                    <p><span class="package-price-inner"><strike>$449.00</strike> per person</span></p>
+                               </div>
+                               <div class="col-md-4">
+                                   <h3>ONLINE SPECIAL PRICE</h3>
+                                    <p><span class="package-price-inner"><strong>$388.00</strong> per person</span></p>
+                               </div>
+                           </div>
                         </div>
-                        
-                        <hr />
-                        
-                        <div class="row">
-                            
-                            <div class="col-md-6">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="usr">Name:*</label>
-                                            <input type="text" class="form-control" id="usr">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="usr">E-mail:*</label>
-                                            <input type="text" class="form-control" id="email">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <label for="usr">E-mail:*</label>
-                                            <textarea class="form-control" id="message"></textarea>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <button class="btn btn-primary submit-contact-btn">Submit</button>
-                                    </div>
-                                </div>
-                            </div>
-                               
-                            <div class="col-md-6">
-                                <img src="images/contact-map.jpg" alt="map" class="img-responsive" />
-                            </div>
-                               
-                        </div>
-                        
-                        <hr />
-                        
-                        <div class="row bottom-row-top-margin">
-                            <div class="col-md-12">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120179.18552829803!2d-156.11177763968763!3d19.729666136226996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x79540d7f5fa86fc5%3A0x7d3d5bd37ad4bc1a!2sBig+Island+Air!5e0!3m2!1sen!2s!4v1480444382171" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                        
+
+                        <h3 class="sub-title"><span>Photo Gallery</span></h3>
                     </div>
                 </div>
+
+
+
+                <div class="row photo-gallery">
+
+                    <div class="col-md-3">
+                        <a class="#" href="images/gallery/15138421_1517474331612867_1911596928865449149_o.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="img-responsive" src="images/gallery/15138421_1517474331612867_1911596928865449149_o.jpg" alt=""/></a>
+                    </div>
+
+                    <div class="col-md-3">
+                        <a class="#" href="images/gallery/15123238_1517474464946187_8993695689509443100_o.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard."><img class="img-responsive" src="images/gallery/15123238_1517474464946187_8993695689509443100_o.jpg" alt="" /></a>
+                    </div>
+
+                    <div class="col-md-3">
+                        <a class="#" href="images/gallery/15110280_1517474314946202_331878864059636902_o.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="img-responsive" src="images/gallery/15110280_1517474314946202_331878864059636902_o.jpg" alt="" /></a>
+                    </div>
+
+                    <div class="col-md-3">
+                        <a class="#" href="images/gallery/15042005_1517474338279533_5073266537019805878_o.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="img-responsive" src="images/gallery/15042005_1517474338279533_5073266537019805878_o.jpg" alt="" /></a>
+                    </div>
+
+                </div>
+                
+                <h3 class="sub-title"><span>Seating Arrangement</span></h3>
+                <a class="#" href="images/seats.gif" data-lightbox="seating-arrangement" data-title="seating arrangement"><img src="images/seats.gif" alt="seating arrangement" class="img-responsive" /></a>
+                
+                <div class="btn-container">
+                    <a href="reservation.php?tour=sunset" class="btn btn-primary booknowbtn-02">BOOK NOW <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                </div>       
 
             </div>
 
         </div><!-- ./content-area -->
         </div>
-    
+       
+       
         
         <div class="container news-social">
             <div class="row">
@@ -238,24 +228,25 @@
                 
             </div>
         </div><!-- major tour -->
-            
+        
+        
         
         <footer>
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        <a href="index.html"><img src="images/logo.png" alt="logo" class="img-responsive" /></a>
+                        <a href="index.php"><img src="images/logo.png" alt="logo" class="img-responsive" /></a>
                     </div>
                     <div class="col-md-4">
                         <ul>
-                            <li><a href="index.html">HOME</a></li>
-                            <li><a href="tours.html">TOURS</a></li>
-                            <li><a href="charters.html">CHARTERS</a></li>
-                            <li><a href="live-reviews.html">LIVE REVIEWS</a></li>
-                            <li><a href="aircraft.html">AIRCRAFT</a></li>
-                            <li><a href="pilots.html">PILOTS</a></li>
-                            <li><a href="gallery.html">GALLERY</a></li>
-                            <li><a href="contact.html">CONTACT US</a></li>
+                            <li><a href="index.php">HOME</a></li>
+                            <li><a href="tours.php">TOURS</a></li>
+                            <li><a href="charters.php">CHARTERS</a></li>
+                            <li><a href="live-reviews.php">LIVE REVIEWS</a></li>
+                            <li><a href="aircraft.php">AIRCRAFT</a></li>
+                            <li><a href="pilots.php">PILOTS</a></li>
+                            <li><a href="gallery.php">GALLERY</a></li>
+                            <li><a href="contact.php">CONTACT US</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4">
@@ -266,12 +257,13 @@
                         <hr />
                         
                         <p>Big Island Air Copyright © 2016. Kona, HI<br />
-                        <a href="https://www.getleadsfast.com" title="" target="_blank">Website managemtnt provided by Getleadsefast, llc</a></p>
+                        <a href="https://www.getleadsfast.com" title="" target="_blank">Website Management provided by Get Leads Fast, LLC</a></p>
                     </div>
                 </div>
             </div>
         </footer>
         
+
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

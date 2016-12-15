@@ -5,11 +5,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <meta name="description" content="Contact Big Island Air to book your experential volcano air tours or any type of air tours in Kona Hawaii.">
+        <meta name="description" content="Enjoy chartered air tours in Kona Hawaii with Big Island Air. We provide some of the best Hawaii air tour experiences at great prices.">
         <meta name="author" content="">
         <link rel="icon" href="favicon.ico">
 
-        <title>Contact Big Island Air - Volcano Air Tours Kona Hawaii</title>
+        <title>Check the FAQ for Big Island Air</title>
 
         <!-- Bootstrap core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -69,6 +69,7 @@
           js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
           fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));</script>
+       
                
         <nav class="navbar navbar-inverse">
             <div class="container">
@@ -81,7 +82,7 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo" class="img-responsive" /></a>
+                            <a class="navbar-brand" href="index.php"><img src="images/logo.png" alt="logo" class="img-responsive" /></a>
                         </div>
                     </div>
                     <div class="col-sm-10 col-md-9">
@@ -89,124 +90,165 @@
                             <span class="phone">CALL US: 808.329.4868</span>
                             <ul class="header-social-icons">
                                 <li><a href="https://www.facebook.com/pages/Big-Island-Air-Hawaii/162424950451152" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.instagram.com/bigislandair/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.tripadvisor.com/Attraction_Review-g60872-d1798336-Reviews-Big_Island_Air-Kailua_Kona_Island_of_Hawaii_Hawaii.html" target="_blank"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a></li>
                             </ul>
-                            <a href="reservation.html" class="btn btn-primary booknowbtn">BOOK NOW <i class="fa fa-arrow-right" aria-hidden="true"></i></a>    
+                            <a href="reservation.php?tour=circle" class="btn btn-primary booknowbtn">BOOK NOW <i class="fa fa-arrow-right" aria-hidden="true"></i></a>    
                         </div>
                         <div id="navbar" class="collapse navbar-collapse">
                             <ul class="nav navbar-nav">
-                                <li><a href="index.html">HOME</a></li>
-                                <li><a href="tours.html">TOURS</a></li>
-                                <li><a href="charters.html">CHARTERS</a></li>
-                                <li><a href="live-reviews.html">LIVE REVIEWS</a></li>
-                                <li><a href="aircraft.html">AIRCRAFT</a></li>
-                                <li><a href="pilots.html">PILOTS</a></li>
-                                <li><a href="gallery.html">GALLERY</a></li>
-                                <li class="active"><a href="contact.html">CONTACT US</a></li>
+                                <li><a href="index.php">HOME</a></li>
+                                <li><a href="tours.php">TOURS</a></li>
+                                <li class="active"><a href="charters.php">CHARTERS</a></li>
+                                <li><a href="live-reviews.php">LIVE REVIEWS</a></li>
+                                <li><a href="aircraft.php">AIRCRAFT</a></li>
+                                <li><a href="pilots.php">PILOTS</a></li>
+                                <li><a href="gallery.php">GALLERY</a></li>
+                                <li><a href="contact.php">CONTACT US</a></li>
                             </ul>
                         </div><!--/.nav-collapse -->
                     </div>
                 </div>
             </div>
-        </nav>          
+        </nav> 
         
         <div class="tree-bar">
             <img src="images/tree.png" alt="tree" class="img-responsive" />
-        </div>                                     
+        </div>                                               
       
       
         <div class="container-fluid inner-bg">
-            <div class="content-area">
-
+           <div class="content-area">
             <div class="container">
-
                 <div class="row">
                     <div class="col-md-12">
-                        <h1 class="page-title"><span>Contact</span></h1>
+                        <h1 class="page-title"><span>Frequently Asked Questions.</span></h1>
                         
-                        <div class="row">
-                            
-                            <div class="col-md-4">
-                                <p><strong>Big Island Air Office</strong></p>
-                                <p>Kona International Airport<br />
-                                Commuter Air Terminal<br />
-                                73-103 U'u Street<br />
-                                Kailua-Kona, HI 96740</p>
-                            </div>
-                            
-                            <div class="col-md-4">
-                                <p><strong>Mailing address:</strong></p>
-                                <p>Kailua-Kona, HI 96745</p>  
-                            </div>
-                            
-                            <div class="col-md-4">
-                                <p><strong>Phone:</strong> 808 329 4868<br />
-                                <strong>FAX:</strong> 808 329 0855<br />
-                                <strong>E-mail:</strong> info@bigislandair.com<br />
-                                <strong>Tours:</strong> tours@bigislandair.com<br />
-                                <strong>Charters:</strong> charters@bigislandair.com</p>
-                            </div>
-                            
-                        </div>
-                        
-                        <hr />
-                        
-                        <div class="row">
-                            
-                            <div class="col-md-6">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="usr">Name:*</label>
-                                            <input type="text" class="form-control" id="usr">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="usr">E-mail:*</label>
-                                            <input type="text" class="form-control" id="email">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <label for="usr">E-mail:*</label>
-                                            <textarea class="form-control" id="message"></textarea>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <button class="btn btn-primary submit-contact-btn">Submit</button>
-                                    </div>
-                                </div>
-                            </div>
-                               
-                            <div class="col-md-6">
-                                <img src="images/contact-map.jpg" alt="map" class="img-responsive" />
-                            </div>
-                               
-                        </div>
-                        
-                        <hr />
-                        
-                        <div class="row bottom-row-top-margin">
-                            <div class="col-md-12">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120179.18552829803!2d-156.11177763968763!3d19.729666136226996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x79540d7f5fa86fc5%3A0x7d3d5bd37ad4bc1a!2sBig+Island+Air!5e0!3m2!1sen!2s!4v1480444382171" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                        
+							<div class="panel-group" id="accordion">
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<a style="font-size:20px;font-family:'Open Sans', sans-serif;" class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse1">1. We will be arriving in Hilo. How would we get to you?</a>
+										</h4>
+									</div>
+									<div id="collapse1" class="panel-collapse collapse in">
+										<div class="panel-body">
+											You have to come to Kona to join us for our Tour. We are based in Kona Commuter terminal.
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<a style="font-size:20px;font-family:'Open Sans', sans-serif;" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse2">2. Can I request a specific pilot?</a>
+										</h4>
+									</div>
+									<div id="collapse2" class="panel-collapse collapse">
+										<div class="panel-body">
+											YES you can, but we have a designated pilot for day to day bases.
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<a style="font-size:20px;font-family:'Open Sans', sans-serif;" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse3">3. Do any of your tours go over the active lava flows into the ocean?</a>
+										</h4>
+									</div>
+									<div id="collapse3" class="panel-collapse collapse">
+										<div class="panel-body">
+											YES we will take you there 99% , but our air tours depends on a good weather.
+										</div>
+									</div>
+								</div>
+								
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<a style="font-size:20px;font-family:'Open Sans', sans-serif;" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse4">4. What is the price for children?</a>
+										</h4>
+									</div>
+									<div id="collapse4" class="panel-collapse collapse">
+										<div class="panel-body">
+											Under two(2) years old child are considered lap child(free of charge), 2 years old and above are full seat.
+										</div>
+									</div>
+								</div>
+								
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<a style="font-size:20px;font-family:'Open Sans', sans-serif;" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse5">5. Do you have weekend flights?</a>
+										</h4>
+									</div>
+									<div id="collapse5" class="panel-collapse collapse">
+										<div class="panel-body">
+											YES we fly every day of the week.
+										</div>
+									</div>
+								</div>
+								
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<a style="font-size:20px;font-family:'Open Sans', sans-serif;" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse6">6. Do you have a charter that could show us Maui or the historical things on Molokai?</a>
+										</h4>
+									</div>
+									<div id="collapse6" class="panel-collapse collapse">
+										<div class="panel-body">
+											YES we provide private charter on every Island of Hawaii to meet your request.
+										</div>
+									</div>
+								</div>
+								
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<a style="font-size:20px;font-family:'Open Sans', sans-serif;" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse7">7. What time your tours depart?</a>
+										</h4>
+									</div>
+									<div id="collapse7" class="panel-collapse collapse">
+										<div class="panel-body">
+											Here at Big Island, our flight starts at 7:00,9:00,11:30 and 2:00 pm for the CIRCLE ISLAND TOUR and our SUNSET/TWILIGHT TOUR departs @ 3:45 pm (departure time depends on sunset time).
+											Maui VIP AIR TOUR- 8:00 am,11:15 and 2:45 pm departure.
+										</div>
+									</div>
+								</div>
+								
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<a style="font-size:20px;font-family:'Open Sans', sans-serif;" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse8">8. How long is the tour?</a>
+										</h4>
+									</div>
+									<div id="collapse8" class="panel-collapse collapse">
+										<div class="panel-body">
+											The tour in Big Island last 105 minutes approximately.
+											VIP AIR ADVENTURE(Maui-Big Island) 180 minutes approximately.
+										</div>
+									</div>
+								</div>
+								
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<a style="font-size:20px;font-family:'Open Sans', sans-serif;" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse9">9. Can you tell me the upper weight limit for an air tour?</a>
+										</h4>
+									</div>
+									<div id="collapse9" class="panel-collapse collapse">
+										<div class="panel-body">
+											Our maximum body weight is 350 lbs.
+										</div>
+									</div>
+								</div>
+							</div>
                     </div>
                 </div>
-
             </div>
-
         </div><!-- ./content-area -->
         </div>
-    
-        
+       
+       
         <div class="container news-social">
             <div class="row">
                 
@@ -238,24 +280,24 @@
                 
             </div>
         </div><!-- major tour -->
-            
+               
         
         <footer>
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        <a href="index.html"><img src="images/logo.png" alt="logo" class="img-responsive" /></a>
+                        <a href="index.php"><img src="images/logo.png" alt="logo" class="img-responsive" /></a>
                     </div>
                     <div class="col-md-4">
                         <ul>
-                            <li><a href="index.html">HOME</a></li>
-                            <li><a href="tours.html">TOURS</a></li>
-                            <li><a href="charters.html">CHARTERS</a></li>
-                            <li><a href="live-reviews.html">LIVE REVIEWS</a></li>
-                            <li><a href="aircraft.html">AIRCRAFT</a></li>
-                            <li><a href="pilots.html">PILOTS</a></li>
-                            <li><a href="gallery.html">GALLERY</a></li>
-                            <li><a href="contact.html">CONTACT US</a></li>
+                            <li><a href="index.php">HOME</a></li>
+                            <li><a href="tours.php">TOURS</a></li>
+                            <li><a href="charters.php">CHARTERS</a></li>
+                            <li><a href="live-reviews.php">LIVE REVIEWS</a></li>
+                            <li><a href="aircraft.php">AIRCRAFT</a></li>
+                            <li><a href="pilots.php">PILOTS</a></li>
+                            <li><a href="gallery.php">GALLERY</a></li>
+                            <li><a href="contact.php">CONTACT US</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4">
@@ -266,7 +308,7 @@
                         <hr />
                         
                         <p>Big Island Air Copyright © 2016. Kona, HI<br />
-                        <a href="https://www.getleadsfast.com" title="" target="_blank">Website managemtnt provided by Getleadsefast, llc</a></p>
+                        <a href="https://www.getleadsfast.com" title="" target="_blank">Website Management provided by Get Leads Fast, LLC</a></p>
                     </div>
                 </div>
             </div>
